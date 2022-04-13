@@ -1,0 +1,29 @@
+body {
+  background-color: blueviolet;
+}
+div {
+  text-align: center;
+  margin: 300px 0 0 0;
+  color: white;
+}
+p {
+  text-align: center;
+  color: white;
+}
+p::before {
+content: "\01F449";
+}
+p::after {
+  content: "\01F448";
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: palevioletred;
+}
+a:hover {
+  color: wheat;
+}
